@@ -2,8 +2,8 @@
 class Deck {
 constructor(){
     this.deck = [] ;
-const suits =['Spades', 'Diamonds','Hearts','Clubs'];
-const values = ['Ace','2','3','4','5','6','7','8','9','10','Jack','King','Queen'];
+    let suits =['Spades', 'Diamonds','Hearts','Clubs'];
+    let values = ['Ace','2','3','4','5','6','7','8','9','10','Jack','King','Queen'];
 
 
 }
@@ -28,9 +28,6 @@ function startTheGame(){
 
 
 }
-
-let suits =['Spades', 'Diamonds','Hearts','Clubs'];
-let values = ['Ace','2','3','4','5','6','7','8','9','10','Jack','King','Queen'];
 
 let deck = new Deck();
 
